@@ -3,7 +3,7 @@ package com.sixbitproxywax.tempest.model;
 import java.util.HashMap;
 import java.util.Map;
 
-interface TempestPacket {
+public interface TempestPacket {
   String serialNumber();
 
   Type type();
